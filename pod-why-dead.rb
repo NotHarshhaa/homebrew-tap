@@ -5,21 +5,21 @@
 class PodWhyDead < Formula
   desc "One command. Full death story of any Kubernetes pod."
   homepage "https://github.com/NotHarshhaa/pod-why-dead"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.1.0/pod-why-dead_0.1.0_darwin_amd64.tar.gz"
-      sha256 "598ccaefcb573368a9d42705417b2c1a1d339b1fc2adbdb075c69f310b05c582"
+      url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.2.0/pod-why-dead_0.2.0_darwin_amd64.tar.gz"
+      sha256 "94069a7debab61a213afdd9b25007de2671e87bdef1e897dc9a079d1eca342e9"
 
       def install
         bin.install "pod-why-dead"
       end
     end
     on_arm do
-      url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.1.0/pod-why-dead_0.1.0_darwin_arm64.tar.gz"
-      sha256 "1d7ca1e715f1d3c6807ec2a6ebdb75ff14d56daabed0d2cb88d25ab1e7090efa"
+      url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.2.0/pod-why-dead_0.2.0_darwin_arm64.tar.gz"
+      sha256 "cb255974a01aefe859b950c22b1e3ef253ac2fd9a37331bdfdb22a1ecacbfe5f"
 
       def install
         bin.install "pod-why-dead"
@@ -30,8 +30,8 @@ class PodWhyDead < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.1.0/pod-why-dead_0.1.0_linux_amd64.tar.gz"
-        sha256 "84d9d4427e963f88609ccbfb7889abc0f26105038ff7bd7a9fd8ad6eda79d099"
+        url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.2.0/pod-why-dead_0.2.0_linux_amd64.tar.gz"
+        sha256 "689abf6ce8a8bfcb28109dba41b22574c0c86fc5508466edf5d04c1259cc0814"
 
         def install
           bin.install "pod-why-dead"
@@ -40,8 +40,8 @@ class PodWhyDead < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.1.0/pod-why-dead_0.1.0_linux_arm64.tar.gz"
-        sha256 "59970620b82aed05bd08a39c2639e7071123b4695ed401a5be588eda93ac691e"
+        url "https://github.com/NotHarshhaa/pod-why-dead/releases/download/v0.2.0/pod-why-dead_0.2.0_linux_arm64.tar.gz"
+        sha256 "cd70b64aa7e3e9116c062c8d51b9cfb692606723258b4abe256ce030d7a3f0d7"
 
         def install
           bin.install "pod-why-dead"
